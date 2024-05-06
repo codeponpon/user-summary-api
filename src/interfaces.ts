@@ -65,3 +65,11 @@ interface ICrypto {
   wallet: string;
   network: string;
 }
+
+export interface IDepartment {
+  male: number;
+  female: number;
+  ageRange: string;
+  hair: {[name: string]: number};
+  addressUser:{[name: string]: string}
+}
